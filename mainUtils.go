@@ -1053,7 +1053,7 @@ func (a *App) EditImage(writer http.ResponseWriter, request *http.Request) {
 
 	a.DB.Exec("UPDATE informations SET profile = ? WHERE userName = ?", m, username)
 
-	f, err := os.Create("D://nitrogen/images/" + m)
+	f, err := os.Create("./nitrogen/images/" + m)
 	if err != nil {
 		fmt.Println("err msg: ", err.Error())
 	}
