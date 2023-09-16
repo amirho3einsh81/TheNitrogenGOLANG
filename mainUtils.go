@@ -378,7 +378,7 @@ func (a *App) Information(writer http.ResponseWriter, request *http.Request) {
 			return
 		}
 	}
-	body, err := ioutil.ReadFile("D://nitrogen/images/" + ui.Profile)
+	body, err := ioutil.ReadFile("./nitrogen/images/" + ui.Profile)
 	ui.Byte = body
 	viewer(writer, http.StatusOK, ui)
 	//f, err := os.Open("D://nitrogen/images/" + ui.Profile)
