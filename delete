@@ -1,0 +1,7 @@
+DELETE FROM users WHERE userName = 'amirho3einsh';
+DELETE FROM categories WHERE userName = 'amirho3einsh';
+DELETE FROM challenges WHERE userName = 'amirho3einsh';
+DELETE FROM conclusions WHERE userName = 'amirho3einsh';
+DELETE FROM goals WHERE userName = 'amirho3einsh';
+DELETE FROM startDate WHERE userName = 'amirho3einsh';
+--DELETE FROM users WHERE userName = 'amirho3einsh';
